@@ -1,0 +1,62 @@
+.app__navbar {
+  width: 80%;
+  height: 3.5em;
+  display: flex;
+  justify-content: space-between; 
+  padding-right: 0.2em; 
+  padding-left: 2em;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  top: 1em;
+  left: 50%; /* Center the navbar horizontally */
+  transform: translateX(-50%); /* Adjust to properly center */
+  background-color: white;
+  border-radius: 30px;
+}
+
+.app__navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    top: 1em;
+   
+    img {
+        width: 120px;
+        height: 30px;
+    }
+}
+
+.app__navbar-title {
+    color: var(--green-color);
+    font-size: 1.2em;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    div { 
+        width: 4px;
+        height: 4px;
+        background: var(--green-color);
+        border-radius: 50%;
+
+    }
+}
+
+.app__navbar-beta {
+    height: 50px;
+    color: var(--green-color);
+    font-size: 1.2em;
+    border: 0.1em solid;
+    border-radius: 30px;
+    align-items: center;
+
+    a {
+        padding: 8px 15px 0px 15px;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+}

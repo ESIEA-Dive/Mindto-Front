@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
+@font-face {
+  font-family: GilroyBold;
+  src: url(./images/R-FLEX-MEDIUM.otf);
+}
+
 :root {
-  --font-base: "DM Sans", sans-serif;
+  --font-base: "GilroyBold", sans-serif;
 
   --primary-color: #edf2f8;
+  --green-color: #00C170;
   --secondary-color: #01B399;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
