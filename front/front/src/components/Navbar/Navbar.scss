@@ -61,17 +61,28 @@
     }
 }
 
-.bottom-button {
+.app__navbar-button {
     position: fixed;
-    bottom: 20px; /* Adjust the distance from the bottom as needed */
-    left: 85%;
-    transform: translateX(-50%);
-    display: block;
-    padding: 10px 20px;
-    background-color: var(--green-color); /* Button background color */
+    bottom: 20px; /* Adjust to your desired distance from the bottom */
+    right: 13%; /* Adjust to your desired distance from the left */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 5px;
+    background-color: var(--green-color);
     color: white;
-    text-align: center;
+    border-radius: 25px;
+    padding: 0.3em 0.6em 0.3em 0.9em;
     text-decoration: none;
-    border-radius: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+  
+  .app__navbar-button img {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+  }
+
+  
+  

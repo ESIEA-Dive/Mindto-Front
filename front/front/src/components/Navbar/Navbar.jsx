@@ -19,9 +19,10 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <a href="https://sgyjchvaboe.typeform.com/to/hoi6aWWZ" className="bottom-button">Next
-      <img></img>
-      </a>
+      <div className='app__navbar-button'>
+       <a href="https://sgyjchvaboe.typeform.com/to/hoi6aWWZ">Next</a>
+       <img src={images.fusay} alt='button' />
+      </div>
   </div>
 
   )
