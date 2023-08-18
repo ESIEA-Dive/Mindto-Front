@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: GilroyBold;
-  src: url(./images/R-FLEX-MEDIUM.otf);
+  src: url(./images/R-FLEX-REGULAR.otf);
 }
 
 :root {
@@ -12,7 +12,7 @@
   --green-color: #00C170;
   --secondary-color: #01B399;
   --black-color: #030303;
-  --lightGray-color: #e4e4e4;
+  --lightGray-color: #FDFDFD;
   --gray-color: #6b7688;
   --brown-color: #46364a;
   --white-color: #ffffff;
@@ -23,4 +23,5 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  letter-spacing: 1px;
 }
