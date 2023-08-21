@@ -11,6 +11,10 @@
     max-width: 1000px; /* Optional: Set a maximum width */
     padding: 1em 0 1em 0;
     line-height: 1.7em;
+    @media screen and (max-width: 900px) {
+        width: 80%;
+      }  
+    
 }
 
 .white-box {
@@ -58,12 +62,19 @@ padding: 0 0 0 2em;
     background-color: #F7F4F4;
     padding: 1.5em;
     border-radius: 25px;
+    @media screen and (max-width: 900px) {
+        width: 80%;
+      }  
 }
 
 .app__title {
  display: flex;
  flex-direction: row;
  align-items: center;
+ @media screen and (max-width: 900px) {
+    margin-top: 0.4em;
+    margin-bottom: 0.3em;
+  }  
 }
 
 .hello {
@@ -97,6 +108,10 @@ font-size: 19px;
     justify-content: center;
     flex-direction: column;
     font-size: 16px;
+    @media screen and (max-width: 900px) {
+        width: 80%;
+        margin-bottom: 50px;
+      }  
 }
 
 .horizontal-line {
@@ -117,4 +132,8 @@ border: 2px solid #F36750;
 color: #F36750;
 font-weight: bold;
 margin-left: 25%;
+
+@media screen and (max-width: 900px) {
+    margin-left: 15%;
+  }  
 }

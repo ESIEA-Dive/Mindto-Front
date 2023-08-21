@@ -38,7 +38,7 @@ tired during the day. When I think of statistics like this and reflect back on
 college, this doesn't make working with teammates easier.
 </p>
 
-      <p className='red-box'>Tips for getting back to a more energetic yo</p>
+      <p className='red-box'>Tips for getting back to a more energetic you</p>
       <p className='po-text'>So, what can we do to make this better? A few things according to Huberman
 and Dr. Poe:
 </p>
