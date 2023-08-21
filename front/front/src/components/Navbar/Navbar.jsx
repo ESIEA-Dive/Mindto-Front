@@ -20,8 +20,8 @@ const Navbar = () => {
       </nav>
 
       <div className='app__navbar-button'>
-       <a href="https://sgyjchvaboe.typeform.com/to/hoi6aWWZ">Next</a>
-       <img src={images.fusay} alt='button' />
+       <a href="https://sgyjchvaboe.typeform.com/to/hoi6aWWZ" className='momo'>Continue</a>
+       <img href="https://sgyjchvaboe.typeform.com/to/hoi6aWWZ"  src={images.fusay} alt='button'/>
       </div>
   </div>
 
