@@ -12,8 +12,8 @@ const Header = () => {
     </div>
 
     <div className='app__box-title'>
-      <h1>Maladaptive Sleep Behaviors</h1>
-      <a>Identifying Them For a Better You</a>
+      <h1>Intermittent Fasting 101</h1>
+      <a>How It Works</a>
     </div>
 
     <div className='app__box-author'>
@@ -26,7 +26,7 @@ const Header = () => {
   </div>
 
   <div className='app__header-text'>
-    <a>Most days, I look for a caffeine boost in the morning and again in the afternoon. I’ve also caught myself nodding off in the middle of the day or wanting to take a nap from time to time.</a>
+    <a>There's plenty of fad diets out there: keto, paleo, raw, Beverly Hills… the list goes on and on. But recently, one type of nutritional plan has been sweeping wellness world: Intermittent fastings</a>
   </div>
 </div>
   )
