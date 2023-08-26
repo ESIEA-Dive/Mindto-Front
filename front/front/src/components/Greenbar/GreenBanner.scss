@@ -1,0 +1,19 @@
+.green-banner {
+    background-color: var(--green-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Make sure it's above other content */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+
+  .green-banner.hidden {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
