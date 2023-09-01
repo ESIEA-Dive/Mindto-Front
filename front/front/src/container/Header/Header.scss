@@ -28,7 +28,7 @@
 
 .app__box-header {
     display: flex;
-    padding-bottom: 8em;
+    padding-bottom: 4em;
     justify-content: center;
     a {
         background-color: var(--green-color);
@@ -87,6 +87,7 @@
 .app__header-text {
     margin-top: 50px;
     width: 45%;
+    margin-bottom: -50px;
     
 
     a {
