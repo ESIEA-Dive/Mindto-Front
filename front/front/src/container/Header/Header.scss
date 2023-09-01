@@ -16,7 +16,7 @@
     border-radius: 25px;
     padding: 3em 5em 3em 5em;
     width: 80%;
-    background: url(../../images/background.jpg);
+    background: url(../../images/bd_blue.jpg);
     position: relative;
     background-size: cover;
     background-repeat: repeat;
@@ -28,7 +28,7 @@
 
 .app__box-header {
     display: flex;
-    padding-bottom: 2em;
+    padding-bottom: 8em;
     justify-content: center;
     a {
         background-color: var(--green-color);
@@ -85,10 +85,20 @@
 }
 
 .app__header-text {
-    font-size: 24px;
     margin-top: 50px;
     width: 45%;
-    font-weight: bold;
+    
+
+    a {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    p {
+        font-size: 16px;
+        font-style: italic;
+        margin-top: 0.7em;
+    }
     @media screen and (max-width: 900px) {
         width: 80%;
       }  

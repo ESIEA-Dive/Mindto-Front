@@ -22,29 +22,35 @@
     border-radius: 15px;
     padding: 0.5em 1em 0.5em 1em;
     margin: 1em 0 1em 0;
-    color: #F36750;
+    color: #5C79BB;
     font-weight: bold;
     font-size: 20px;
     width:fit-content;
-    border: 0.1em solid #F36750;
+    border: 0.1em solid #5C79BB;
 }
 
 .big-red-box {
     padding: 1.5em 1.5em 1.5em 1.5em;
     background-color: white;
     border-radius: 15px;
-    border: 0.1em solid #F36750;
+    border: 0.1em solid #5C79BB;
     margin-bottom: 1.2em;
     margin-top: 1.2em;
 }
 
 .red {
-    color: #F36750;
+    color: #5C79BB;
     margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.red-y {
+    color: #5C79BB;
+    margin-top: 0.5em;
 }
 
 .red-box {
-    background-color: #F36750;
+    background-color: #5C79BB;
     border-radius: 25px;
     padding: 0.5em 1em 0.5em 1em;
     margin: 1em 0 1em 0;
@@ -55,7 +61,7 @@
 }
 
 .po-text {
-    padding: 1em;
+    padding: 0.9em;
     line-height: 1.7em;
 }
 
@@ -81,7 +87,9 @@
 }
 
 .list {
-padding: 0 0 0 2em;
+padding: 0 0 2em 6em;
+line-height: 1.8em;
+
 }
 
 .app__article-table {
@@ -98,6 +106,10 @@ padding: 0 0 0 2em;
  display: flex;
  flex-direction: row;
  align-items: center;
+
+ br {
+    margin-top: 0.5em;
+ }
  @media screen and (max-width: 900px) {
     margin-top: 0.4em;
     margin-bottom: 0.3em;
@@ -106,7 +118,7 @@ padding: 0 0 0 2em;
 
 .hello {
 font-size: 19px;
-  background-color: #F36750;
+  background-color: #5C79BB;
   color: #ffffff; /* Set text color to make it visible on the background */
   border-radius: 50%; /* Make the background round by setting border-radius to 50% */
   padding: 15px; /* Add padding to create space around the text */
@@ -119,7 +131,7 @@ font-size: 19px;
 
 .plop {
  margin-left: 1em;
- color: #F36750;
+ color: #5C79BB;
  font-weight: bold;
  font-size: 19px;
 }
@@ -145,7 +157,7 @@ font-size: 19px;
 display: flex;
 width: 100%;
 height: 2px;
-background-color: #F36750;
+background-color: #5C79BB;
 margin-top: 3em;
 align-items: center;
 }
@@ -155,8 +167,8 @@ background-color: #ffffff;
 padding: 0.4em 1em 0.4em 1em;
 font-size: 20px;
 border-radius: 15px;
-border: 2px solid #F36750;
-color: #F36750;
+border: 2px solid #5C79BB;
+color: #5C79BB;
 font-weight: bold;
 margin-left: 25%;
 

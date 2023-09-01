@@ -8,17 +8,17 @@ const Header = () => {
 <div className='app__header'>
   <div className='app__header-box'>
     <div className='app__box-header'>
-      <a>Physical</a>
+      <a>Mental</a>
     </div>
 
     <div className='app__box-title'>
-      <h1>Intermittent Fasting 101</h1>
-      <a>How It Works</a>
+      <h1>Leadership</h1>
+      <a>A better leader leads to a better future</a>
     </div>
 
     <div className='app__box-author'>
-      <img src={images.brittany}></img>
-      <a>Brittany Collens</a>
+      <img src={images.louise}></img>
+      <a>Louise Kwong</a>
     </div>
     {/* <div className='app__header-pillar'>
       <img src={images.physical} alt='pillar' />
@@ -26,7 +26,8 @@ const Header = () => {
   </div>
 
   <div className='app__header-text'>
-    <a>There's plenty of fad diets out there: keto, paleo, raw, Beverly Hills… the list goes on and on. But recently, one type of nutritional plan has been sweeping wellness world: Intermittent fastings</a>
+    <a>“A leader takes people where they want to go, a great leader takes people where they don't necessarily want to go but ought to be”</a>
+    <p>Rosalynn Carter, former First Lady of the United States</p>
   </div>
 </div>
   )
