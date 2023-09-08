@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Header, Article } from './container';
-import { Navbar } from './components';
+import {GreenBanner, Navbar } from './components';
 import './App.scss';
 
 const App = () => {
