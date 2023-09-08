@@ -7,18 +7,23 @@ const Header = () => {
   return (
 <div className='app__header'>
   <div className='app__header-box'>
+  <div class='background-image'>
+    <img src={images.social} />
+  </div>
     <div className='app__box-header'>
-      <a>Mental</a>
+      <a>Social</a>
     </div>
 
     <div className='app__box-title'>
-      <h1>Leadership</h1>
-      <a>A better leader leads to a better future</a>
+      <h1>More than cold feet</h1>
+      <a>Tips on overcoming social anxiety</a>
     </div>
 
     <div className='app__box-author'>
       <img src={images.louise}></img>
       <a>Louise Kwong</a>
+      <img className='left' src={images.tb}></img>
+      <a>Timothy O'Brien</a>
     </div>
     {/* <div className='app__header-pillar'>
       <img src={images.physical} alt='pillar' />
@@ -26,8 +31,9 @@ const Header = () => {
   </div>
 
   <div className='app__header-text'>
-    <a>“A leader takes people where they want to go, a great leader takes people where they don't necessarily want to go but ought to be”</a>
-    <p>Rosalynn Carter, former First Lady of the United States</p>
+    <a>“ Most people don't chase their dreams because they are scared of what their
+mates will say. ” - Jay Shetty</a>
+    
   </div>
 </div>
   )

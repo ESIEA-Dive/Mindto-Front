@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80svh;
+    height: 70svh;
 
     @media screen and (max-width: 900px) {
         height :fit-content;
@@ -16,25 +16,33 @@
     border-radius: 25px;
     padding: 3em 5em 3em 5em;
     width: 80%;
-    background: url(../../images/bd_blue.jpg);
+    background: url(../../images/rose_bd.jpg);
     position: relative;
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
     @media screen and (max-width: 900px) {
         width :90%;
-      }    
+        text-align: center;
+        font-size: 10px;
+      }  
 }
 
+.left {
+    margin-left: 1em;
+}
 .app__box-header {
     display: flex;
-    padding-bottom: 4em;
+    padding-bottom: 2em;
     justify-content: center;
     a {
         background-color: var(--green-color);
         padding: 0.25em 1em 0.25em 1em;
         border-radius: 5px;
         color: white;
+        @media screen and (max-width: 900px) {
+            font-size: 15px;
+          }  
     }
 }
 
@@ -54,7 +62,7 @@
     a {
     font-size: 30px;
     @media screen and (max-width: 900px) {
-        font-size: 24px;
+        font-size: 22px;
       }    
     }
 }
@@ -81,6 +89,9 @@
         margin-left: 1em;
         color: white;
         font-weight: 500;
+        @media screen and (max-width: 900px) {
+            font-size: 13px;
+          }    
     }
 }
 
@@ -110,3 +121,18 @@
         width: 200px;
     }
 }
+
+.background-image {
+    position: absolute;
+    top: 5em;
+    right: 5em;
+    
+    img {
+        opacity: 0.8;
+        width: 90%;
+        height: 90%;
+    }
+    @media screen and (max-width: 900px) {
+        display: none;
+      }  
+  }

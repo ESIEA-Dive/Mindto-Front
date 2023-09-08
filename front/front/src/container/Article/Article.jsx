@@ -5,120 +5,109 @@ const Article = () => {
   return (
     <div className='app__article-content'>
       <div className='app__article-texte'>
-      <p className='red-box'>Leadership everywhere!</p>
-      <p className='po-text'>Leadership is never easy but it takes this skill to create a good culture whether it's in your business, company, team, or in life. A lot of times in the workplace, we notice that a lot of bosses and CEO's focus on rules, and what needs to get done, yelling and resorting to negative tactics to make sure employees
-      get the message. Yet, we don't talk about how and what motivates us to do it efficiently and in a positive
-      way</p> 
-      <p className='po-text'> In his <a href='https://jayshetty.me/blog/susan-wojcicki-and-jay-shetty-on-avoiding-burnout-as-a-leader/'>podcast</a>, Jay Shetty, a famous author, public speaker, and former Hindu monk, talks about having
-      purpose and how building strong leadership goals, helps people create a positive culture and better
-      response in life</p>
+      <p className='po-text mop'>Do you ever feel anxious about showing up to a party where you only know a couple people? Or just being
+around a crowd becomes a little too overwhelming? You're not alone; one of the most under-talked topics
+these days is social anxiety.</p> 
+      <p className='po-text'>But Jay Shetty brings up this important topic in his podcast, “On Purpose.” Interestingly enough, Shetty
+brings in Tom Holland, better known as, Spiderman. They dig into Tom's life and how he struggled with
+social anxiety.</p>
+      <p className='po-text'>Knowing that Spider Man struggles with social anxiety makes me feel like I'm not the only one who deals
+with this. Even super heroes struggle with their emotions, and social anxiety doesn't discriminate against
+anyone - supernatural or not.</p>
 
-      <p className='red-box'>Leadership styles</p>
+      <p className='red-box'>What is Social Anxiety?</p>
+      <p className='po-text'>Social anxiety is defined as a  <a href="https://kidshealth.org/en/teens/social-phobia.html">ong fear of social situations</a>, typically with public speaking, talking in
+large groups, and meeting new people. This anxiety happens when a person's body notices a situation and
+thinks it's dangerous. When this happens, the body produces a lot of adrenaline and other chemicals
+associated with a person's fight-or-flight response - making them feel really nervous, and have physical
+symptoms.</p>
+      <p className='po-text'>Social anxiety has increased a lot over the last few years; it's estimated that <a href="https://www.nimh.nih.gov/health/statistics/social-anxiety-disorder
+">12.1% of U.S. adults will
+experience social anxiety in their lifetime.</a> That's about 1 out of every 9 people. Two major factors, the
+COVID-19 pandemic and social media use, have increased the rates of social anxiety in the world.</p>
+      <p className='white-box'>The Pandemic</p>
       
-      <p className='po-text'>Leadership styles isn't one size fits all, and there isn't a right or a wrong answer to which ones you should
-      do. Every leadership style has its pros and cons. There are many different styles of leadership and how to
-      run a team. Here are 3 typical leadership styles we can see in our day-to-day life</p>
+      <p className='po-text'>It's no secret that COVID-19 changed the way we interact with each other. With decreased interactions
+with people, and the fear of contracting the illness, came the fear of social interactions. This isolation
+created a 25.6% increase in <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9915904/">anxiety disorders</a> which is approximately 76.2 million new cases of anxiety
+disorders across the globe. Low income individuals, as well as women, were more likely to be impacted by
+anxiety disorders during COVID.</p>
+      
+      <p className='white-box'>Social Media</p>
 
-      <div className='big-red-box'>
-      <h3 className='red-y'>Autocratic</h3>  
-      <p>Also known as authoritarian, autocratic leadership can be summed up as “do as you're told”
-type of leadership. This style normally has one figure at the top dictating to the others what to
-do, some may feel micromanaged and overwhelmed in this style while others may like it as
-results and rules are clear, it's one person making the decisions so there is no overlap or
-confusion.</p>
-      <h3 className='red'>Democratic</h3>  
-      <p>This leadership style involves having input from all. Everybody has a voice and rules and requests
-are discussed with the group. Everybody is equal and tasks are divided up so that nobody feels
-inferior. This style can heighten people's morale and create a more positive environment,
-however inevitably can lead to some of them not feeling heard or left out when their ideas aren't
-chosen.</p>
-      <h3 className='red'>Laissez-faire</h3>  
-      <p>Don't let the French fool you; laissez-faire doesn't just mean “let it be”. Rather, this leadership
-style empowers members of the team to accomplish the task without micromanaging and
-interrupting. <br />
-This style works great with decision-making and team building, not having to wait for their
-decisions to get approved by a higher-up associate. However, with the wrong team/group, this
-style can impact them negatively if the employees aren't motivated or need more direction when
-completing a task.</p>    
-            
-            {/* <ul className='list red'>
-                  <li>skipping breakfast</li>
-                  <li>waiting till noon to eat your first meal</li>
-                  <li>finishing your last meal by eight at night</li>
-            </ul> */}
-      </div>
-
-      <p className='po-text'>We always hear of leadership but we don't always focus on just how important it is for a successful team,
-organization, or company. By becoming more aware of the type of leader you want to be and the
-strategies and keys to being a “better” leader, you can create more success in whatever aspect of your
-life. The earlier you start developing your leadership skills, the more helpful you'll be to your teammates
-and yourself.</p>
+      <p className='po-text'>Social media has slowly taken over within the last couple of years. Gen Z and even Millennials are
+constantly on their phones scrolling through Instagram, Twitter, Snapchat…you name it. Studies show
+that most people spend between 2.5 and 3 hours a day on social apps. The adverse mental effects such as
+social anxiety due to such use is evident.</p>
+<p className='po-text'>For example, a study of 17,340 students from seven colleges in China revealed that prominent use of social
+media was negatively correlated to social anxiety. Why? Simply put, it's human nature to compare
+yourself to other users who appear to have something “better” than you do.</p>
+      
+<p className='po-text'>Social media use also puts our in-person social skills on hold. Staying behind a screen may decrease social
+anxiety for the short term. However, it may increase the level of social anxiety long term because of less
+exposure to in-person interaction.</p>
+      
       
 
-      <p className='red-box'>3 keys to leadership</p>
-      <p className='po-text'>Leadership is a journey, not a destination. It takes time, effort, and practice to become a great leader.
-But it's worth it. Here are 3 keys to developing your leadership skills:</p>
+      <p className='red-box'>Family Time Shapes Our Social Interactions</p>
+      <p className='g-text'>“ How we are loved or unloved from ages 0-5 impact the next
+15-25 years of our life and how we give love to ourselves and
+how we give love to others ” - Shetty</p>
+      <p className='po-text'>Prior research shows that parental rejection, or experiencing reject by family members is <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6445571/">associated with
+increased social anxiety.</a> Connection with family, and encouraging empathetic relationships in the family
+can help decrease social anxiety.</p>
+<p className='po-text'>Back to Shetty's podcast, Tom talks about how he had an amazing family foundation where growing up
+he was lucky enough to have both of his parents at home and felt like they were always a team. This
+helped his social anxiety, due to having a support system in his family. As a result of that, Tom speaks
+about wanting his own close knit family in the future.</p>
+      
+      <p className='red-box'>Social Anxiety: Tips and Tricks</p>
+      <p className='po-text'>While experiencing a global pandemic and our family situations are out of our control, there are some tips
+that can help you manage social anxiety.</p>
       </div>
-
 
 
     <div className='app__article-table'>
 
       <div className='app__title'>
         <a className='hello'>1</a>
-        <p className='plop'>Culture comes first</p>
+        <p className='plop'>Begin to expose yourself to social situations</p>
       </div>
-      <p className='po-text-y'>We hear about culture all the time but what really is it. Culture is one of the greatest drives to
-good leadership. When you're part of a team, what makes that team successful isn't that every
-person in it is good at what they do.</p>
-      <p className='po-text-y'>Coaches already recruit the best players, but it's up to the captain and team to build a family.
-Culture doesn't just mesh the players together but it creates an environment that's enjoyable
-to go to every morning.</p>
-      <p className='po-text-y'>Getting to know each teammate, where when you come into the locker room it isn't “Hey what
-position do you play” but “Where are you from? What do you like to do?”
-, it builds relationships within the system and thus creates a bonded team.</p>
+      <p className='po-text-y'>Dr. Dawn Potter, PsyD., a clinical psychologist with the Cleveland Clinic, says that <a href="https://health.clevelandclinic.org/how-to-overcome-social-anxiety/">slowly
+starting to take part in anxiety-provoking situations can help</a> people with social anxiety
+overcome them. One example of “situational exposure” is trying to present something in front
+of a group of family members, if you're afraid of public speaking.</p>
+
 
       <div className='app__title'>
         <a className='hello'>2</a>
-        <p className='plop'>Talk more, less rules</p>
+        <p className='plop'>Practice being gentle to yourself</p>
       </div>
-      <p className='po-text-y'>Don't get me wrong, it's good to have structure and we need rules. But imaging playing for a
-coach that is a one-man show and commands everything. He is the sole rule creator and if
-anybody goes against him, they get punished: drills for X amount of minutes, not being allowed
-to leave the courts mid-practice, etc.
+      <p className='po-text-y'>Feeling overwhelmed by all these changes? You're not alone - it can be a lot to overcome some
+of these fears. Try making an affirmation to yourself every day, such as “I am good enough” or
+“I am working hard and deserve rest”. <a href="https://health.clevelandclinic.org/how-to-overcome-social-anxiety/">These can help you practice self-care, and develop love
+and value in yourself.</a>
 </p>
-      <p className='po-text-y'>Research has shown that rules imposed by others rather than being co-created drives
-engagement down. <br />
-Being a good leader means talking to your team. Having good conversations but also the tough
-ones too. A good leader drives through communication with their team, creating rules together
-and holding someone accountable when they are not doing their job.</p>
-      <p className='po-text-y'>Instead of dictating, let's talk more!</p>
 
       <div className='app__title'>
         <a className='hello'>3</a>
-        <p className='plop'>Focus on the strengths</p>
+        <p className='plop'>Decrease your time on social media</p>
       </div>
-      <p className='po-text-y'>Sometimes we focus too much on what a person did wrong, what needs to be better, and
-without realizing we snowball into the negatives.</p>
-<p className='po-text-y'>Good leadership skills include focusing on ones positives. Telling them what their strengths are
-and acknowledging to them that they are an asset.<br/>
-A study was done by <a href='https://www.gallup.com/workplace/236369/strengths-based-development-manager-role.aspx '>Gallup</a> where they found that organizations that implemented a strength-based approach to employee development had:
-</p>
+      <p className='po-text-y'>While “social” is in the phrase, social media use is not always beneficial for improving anxieties
+about ourselves or others. Taking a break from social media for an hour a day can be helpful in
+improving the feelings of anxiety. Trying a new hobby to fill that time, for example, walking,
+running, playing an instrument, or reading a book, can be helpful in channeling your anxiety
+into something else.</p>
+<div className='app__title'>
+        <a className='hello'>4</a>
+        <p className='plop'>Reaching out for support</p>
+      </div>
+      <p className='po-text-y'>Support systems are great to have, especially when dealing with social anxiety. Finding family,
+friends, coaches, teammates, or other people to reach out to is especially helpful when dealing
+with social anxiety. This can be especially useful before big decisions or events.
+If you feel like you need more help than a member of your support system can provide, speak
+with your healthcare provider for support.</p>
 
-<ul className='list red-y'>
-                  <li> 10-20% increased sales</li>
-                  <li> 26%-72% of lower turnover rates</li>
-                  <li> 9%-15% engaged employees</li>
-                  <li> 14%-29% increased profit for the company
-</li>
-</ul>
-<p className='po-text-y'>The research is clear. Focusing on ones strengths…is a strength! Instead of criticizing one
-another, take the time to compliment a teammate on how punctual they are, how responsible
-and organized a team member is, or how great the energy is they bring day in and day out to
-the dressing room!
-</p>
-            
-      
       
       </div>
 
@@ -126,11 +115,18 @@ the dressing room!
       <p className='source'>Source</p>
       </div>
       <div className='lolo'>
-      Susan Woocicki and Jay Shelly: On avoiding burnout as a leader
-      <a href="https://jayshetty.me/blog/susan-wojcicki-and-jay-shetty-on-avoiding-burnout-as-a-leader/">
-      https://jayshetty.me/blog/susan-wojcicki-and-jay-shetty-on-avoiding-burnout-as-a-leader/
+      6 ways to overcome social anxiety. (2022, January 10). Cleveland Clinic.
+      <a href="https://health.clevelandclinic.org/how-to-overcome-social-anxiety/">
+      https://health.clevelandclinic.org/how-to-overcome-social-anxiety/
+</a>
+Tom Holland on: how to overcome social anxiety & beneficial life lessons you can learn from family. Jay Shetty
+      <a href="https://jayshetty.me/podcast/tom-holland-on-how-to-overcome-social-anxiety-and-beneficial-lifelessons-
+you-can-learn-from-family/">
+      https://jayshetty.me/podcast/tom-holland-on-how-to-overcome-social-anxiety-and-beneficial-lifelessons-
+you-can-learn-from-family/
 </a>
       </div>
+      
     </div>
   )
 }

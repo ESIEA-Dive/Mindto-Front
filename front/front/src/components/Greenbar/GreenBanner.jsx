@@ -21,7 +21,7 @@ const GreenBanner = () => {
 
   return (
     <div className={`green-banner ${isVisible ? '' : 'hidden'}`}>
-      Disclaimer: This article is for educational purposes only, and does not replace the clinical judgment of a healthcare provider. Please contact your healthcare provider with any questions relating to your health.
+      If you feel unsafe, or need immediate support for a mental health crisis orincident, please contact your local crisis hotline or emergency services.
     </div>
   );
 };
